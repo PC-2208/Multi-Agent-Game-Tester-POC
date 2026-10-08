@@ -1,0 +1,14 @@
+[
+  {
+    "type": "request",
+    "url": "https://play.ezygamers.com/",
+    "method": "GET",
+    "timestamp": 1791451961.2432828
+  },
+  {
+    "type": "response",
+    "url": "https://play.ezygamers.com/",
+    "status": 200,
+    "timestamp": 1791451961.3432827
+  }
+]

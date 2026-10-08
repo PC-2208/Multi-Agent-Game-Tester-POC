@@ -1,0 +1,1400 @@
+{
+  "run_id": "d6278021",
+  "target": "https://play.ezygamers.com/",
+  "timestamp": "2026-10-08T15:02:42.436705",
+  "summary": {
+    "total_tests": 10,
+    "passed": 10,
+    "failed": 0,
+    "uncertain": 0,
+    "pass_rate": 100.0,
+    "average_validation_score": 0.8833333333333331,
+    "high_reproducibility_count": 0
+  },
+  "test_results": [
+    {
+      "test_id": "tc-014",
+      "original_result": {
+        "test_id": "tc-014",
+        "agent_id": "executor_0",
+        "status": "PASS",
+        "artifacts": {
+          "screenshot": "runs/d6278021\\tc-014\\screenshot.png",
+          "dom": "runs/d6278021\\tc-014\\dom.html",
+          "console": "runs/d6278021\\tc-014\\console.log",
+          "network": "runs/d6278021\\tc-014\\network.json",
+          "page_title": "Multi-Agent Game Tester - Simulated",
+          "page_url": "https://play.ezygamers.com/"
+        },
+        "execution_time": 0.8458364009857178,
+        "steps_executed": [
+          {
+            "step_number": 1,
+            "action": "goto",
+            "value": "https://play.ezygamers.com/",
+            "selector": null,
+            "timestamp": 1791451959.159591,
+            "status": "PASS",
+            "note": "Successfully navigated to https://play.ezygamers.com/"
+          },
+          {
+            "step_number": 2,
+            "action": "click",
+            "value": null,
+            "selector": "button",
+            "timestamp": 1791451959.258948,
+            "status": "PASS",
+            "note": "Successfully clicked element button"
+          },
+          {
+            "step_number": 3,
+            "action": "assert_text",
+            "value": "expected",
+            "selector": "#result",
+            "timestamp": 1791451959.3775668,
+            "status": "PASS",
+            "note": "Text assertion passed for #result"
+          }
+        ],
+        "network_requests": [
+          {
+            "type": "request",
+            "url": "https://play.ezygamers.com/",
+            "method": "GET",
+            "timestamp": 1791451959.5015326
+          },
+          {
+            "type": "response",
+            "url": "https://play.ezygamers.com/",
+            "status": 200,
+            "timestamp": 1791451959.6015325
+          }
+        ],
+        "performance_metrics": {
+          "load_time": 1.2,
+          "dom_content_loaded": 0.8,
+          "first_paint": 0.5,
+          "first_contentful_paint": 0.7
+        }
+      },
+      "repeat_validation": [
+        {
+          "run_number": 1,
+          "status": "PASS",
+          "consistency_score": 0.9,
+          "timestamp": "2026-10-08T15:02:42.092819"
+        },
+        {
+          "run_number": 2,
+          "status": "PASS",
+          "consistency_score": 0.85,
+          "timestamp": "2026-10-08T15:02:42.195112"
+        },
+        {
+          "run_number": 3,
+          "status": "PASS",
+          "consistency_score": 0.8,
+          "timestamp": "2026-10-08T15:02:42.306001"
+        }
+      ],
+      "cross_agent_validation": [
+        {
+          "agent_id": "analyzer_0",
+          "analysis": {
+            "focus": "visual_analysis",
+            "screenshot_present": true,
+            "visual_issues": [
+              "No visual issues detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.85,
+          "timestamp": "2026-10-08T15:02:42.429541"
+        },
+        {
+          "agent_id": "analyzer_1",
+          "analysis": {
+            "focus": "dom_analysis",
+            "dom_present": true,
+            "dom_issues": [
+              "DOM structure appears valid"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.95,
+          "timestamp": "2026-10-08T15:02:42.429541"
+        },
+        {
+          "agent_id": "analyzer_2",
+          "analysis": {
+            "focus": "console_analysis",
+            "console_present": true,
+            "console_issues": [
+              "No console errors detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 1.0,
+          "timestamp": "2026-10-08T15:02:42.429541"
+        }
+      ],
+      "validation_score": 0.8833333333333333,
+      "verdict": "LIKELY_PASS",
+      "reproducibility_stats": {
+        "average_consistency": 0.85,
+        "min_consistency": 0.8,
+        "max_consistency": 0.9,
+        "variance": 0.001666666666666666,
+        "reproducibility_rating": "MEDIUM"
+      },
+      "triage_notes": "Test likely passed but with some inconsistencies. Monitor for future runs.",
+      "timestamp": "2026-10-08T15:02:42.429541"
+    },
+    {
+      "test_id": "tc-019",
+      "original_result": {
+        "test_id": "tc-019",
+        "agent_id": "executor_1",
+        "status": "PASS",
+        "artifacts": {
+          "screenshot": "runs/d6278021\\tc-019\\screenshot.png",
+          "dom": "runs/d6278021\\tc-019\\dom.html",
+          "console": "runs/d6278021\\tc-019\\console.log",
+          "network": "runs/d6278021\\tc-019\\network.json",
+          "page_title": "Multi-Agent Game Tester - Simulated",
+          "page_url": "https://play.ezygamers.com/"
+        },
+        "execution_time": 0.8555183410644531,
+        "steps_executed": [
+          {
+            "step_number": 1,
+            "action": "goto",
+            "value": "https://play.ezygamers.com/",
+            "selector": null,
+            "timestamp": 1791451959.159591,
+            "status": "PASS",
+            "note": "Successfully navigated to https://play.ezygamers.com/"
+          },
+          {
+            "step_number": 2,
+            "action": "click",
+            "value": null,
+            "selector": "button",
+            "timestamp": 1791451959.258948,
+            "status": "PASS",
+            "note": "Successfully clicked element button"
+          },
+          {
+            "step_number": 3,
+            "action": "assert_text",
+            "value": "expected",
+            "selector": "#result",
+            "timestamp": 1791451959.3775668,
+            "status": "PASS",
+            "note": "Text assertion passed for #result"
+          }
+        ],
+        "network_requests": [
+          {
+            "type": "request",
+            "url": "https://play.ezygamers.com/",
+            "method": "GET",
+            "timestamp": 1791451959.5158122
+          },
+          {
+            "type": "response",
+            "url": "https://play.ezygamers.com/",
+            "status": 200,
+            "timestamp": 1791451959.615812
+          }
+        ],
+        "performance_metrics": {
+          "load_time": 1.2,
+          "dom_content_loaded": 0.8,
+          "first_paint": 0.5,
+          "first_contentful_paint": 0.7
+        }
+      },
+      "repeat_validation": [
+        {
+          "run_number": 1,
+          "status": "PASS",
+          "consistency_score": 0.9,
+          "timestamp": "2026-10-08T15:02:42.093823"
+        },
+        {
+          "run_number": 2,
+          "status": "PASS",
+          "consistency_score": 0.85,
+          "timestamp": "2026-10-08T15:02:42.195112"
+        },
+        {
+          "run_number": 3,
+          "status": "PASS",
+          "consistency_score": 0.8,
+          "timestamp": "2026-10-08T15:02:42.306001"
+        }
+      ],
+      "cross_agent_validation": [
+        {
+          "agent_id": "analyzer_0",
+          "analysis": {
+            "focus": "visual_analysis",
+            "screenshot_present": true,
+            "visual_issues": [
+              "No visual issues detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.85,
+          "timestamp": "2026-10-08T15:02:42.422875"
+        },
+        {
+          "agent_id": "analyzer_1",
+          "analysis": {
+            "focus": "dom_analysis",
+            "dom_present": true,
+            "dom_issues": [
+              "DOM structure appears valid"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.95,
+          "timestamp": "2026-10-08T15:02:42.422875"
+        },
+        {
+          "agent_id": "analyzer_2",
+          "analysis": {
+            "focus": "console_analysis",
+            "console_present": true,
+            "console_issues": [
+              "No console errors detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 1.0,
+          "timestamp": "2026-10-08T15:02:42.422875"
+        }
+      ],
+      "validation_score": 0.8833333333333333,
+      "verdict": "LIKELY_PASS",
+      "reproducibility_stats": {
+        "average_consistency": 0.85,
+        "min_consistency": 0.8,
+        "max_consistency": 0.9,
+        "variance": 0.001666666666666666,
+        "reproducibility_rating": "MEDIUM"
+      },
+      "triage_notes": "Test likely passed but with some inconsistencies. Monitor for future runs.",
+      "timestamp": "2026-10-08T15:02:42.422875"
+    },
+    {
+      "test_id": "tc-009",
+      "original_result": {
+        "test_id": "tc-009",
+        "agent_id": "executor_2",
+        "status": "PASS",
+        "artifacts": {
+          "screenshot": "runs/d6278021\\tc-009\\screenshot.png",
+          "dom": "runs/d6278021\\tc-009\\dom.html",
+          "console": "runs/d6278021\\tc-009\\console.log",
+          "network": "runs/d6278021\\tc-009\\network.json",
+          "page_title": "Multi-Agent Game Tester - Simulated",
+          "page_url": "https://play.ezygamers.com/"
+        },
+        "execution_time": 0.8463857173919678,
+        "steps_executed": [
+          {
+            "step_number": 1,
+            "action": "goto",
+            "value": "https://play.ezygamers.com/",
+            "selector": null,
+            "timestamp": 1791451959.159591,
+            "status": "PASS",
+            "note": "Successfully navigated to https://play.ezygamers.com/"
+          },
+          {
+            "step_number": 2,
+            "action": "click",
+            "value": null,
+            "selector": "button",
+            "timestamp": 1791451959.258948,
+            "status": "PASS",
+            "note": "Successfully clicked element button"
+          },
+          {
+            "step_number": 3,
+            "action": "assert_text",
+            "value": "expected",
+            "selector": "#result",
+            "timestamp": 1791451959.3775668,
+            "status": "PASS",
+            "note": "Text assertion passed for #result"
+          }
+        ],
+        "network_requests": [
+          {
+            "type": "request",
+            "url": "https://play.ezygamers.com/",
+            "method": "GET",
+            "timestamp": 1791451959.5087261
+          },
+          {
+            "type": "response",
+            "url": "https://play.ezygamers.com/",
+            "status": 200,
+            "timestamp": 1791451959.608726
+          }
+        ],
+        "performance_metrics": {
+          "load_time": 1.2,
+          "dom_content_loaded": 0.8,
+          "first_paint": 0.5,
+          "first_contentful_paint": 0.7
+        }
+      },
+      "repeat_validation": [
+        {
+          "run_number": 1,
+          "status": "PASS",
+          "consistency_score": 0.9,
+          "timestamp": "2026-10-08T15:02:42.095822"
+        },
+        {
+          "run_number": 2,
+          "status": "PASS",
+          "consistency_score": 0.85,
+          "timestamp": "2026-10-08T15:02:42.195112"
+        },
+        {
+          "run_number": 3,
+          "status": "PASS",
+          "consistency_score": 0.8,
+          "timestamp": "2026-10-08T15:02:42.306001"
+        }
+      ],
+      "cross_agent_validation": [
+        {
+          "agent_id": "analyzer_0",
+          "analysis": {
+            "focus": "visual_analysis",
+            "screenshot_present": true,
+            "visual_issues": [
+              "No visual issues detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.85,
+          "timestamp": "2026-10-08T15:02:42.415069"
+        },
+        {
+          "agent_id": "analyzer_1",
+          "analysis": {
+            "focus": "dom_analysis",
+            "dom_present": true,
+            "dom_issues": [
+              "DOM structure appears valid"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.95,
+          "timestamp": "2026-10-08T15:02:42.415069"
+        },
+        {
+          "agent_id": "analyzer_2",
+          "analysis": {
+            "focus": "console_analysis",
+            "console_present": true,
+            "console_issues": [
+              "No console errors detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 1.0,
+          "timestamp": "2026-10-08T15:02:42.415069"
+        }
+      ],
+      "validation_score": 0.8833333333333333,
+      "verdict": "LIKELY_PASS",
+      "reproducibility_stats": {
+        "average_consistency": 0.85,
+        "min_consistency": 0.8,
+        "max_consistency": 0.9,
+        "variance": 0.001666666666666666,
+        "reproducibility_rating": "MEDIUM"
+      },
+      "triage_notes": "Test likely passed but with some inconsistencies. Monitor for future runs.",
+      "timestamp": "2026-10-08T15:02:42.415069"
+    },
+    {
+      "test_id": "tc-011",
+      "original_result": {
+        "test_id": "tc-011",
+        "agent_id": "executor_0",
+        "status": "PASS",
+        "artifacts": {
+          "screenshot": "runs/d6278021\\tc-011\\screenshot.png",
+          "dom": "runs/d6278021\\tc-011\\dom.html",
+          "console": "runs/d6278021\\tc-011\\console.log",
+          "network": "runs/d6278021\\tc-011\\network.json",
+          "page_title": "Multi-Agent Game Tester - Simulated",
+          "page_url": "https://play.ezygamers.com/"
+        },
+        "execution_time": 0.862483024597168,
+        "steps_executed": [
+          {
+            "step_number": 1,
+            "action": "goto",
+            "value": "https://play.ezygamers.com/",
+            "selector": null,
+            "timestamp": 1791451960.0266402,
+            "status": "PASS",
+            "note": "Successfully navigated to https://play.ezygamers.com/"
+          },
+          {
+            "step_number": 2,
+            "action": "click",
+            "value": null,
+            "selector": "button",
+            "timestamp": 1791451960.1424112,
+            "status": "PASS",
+            "note": "Successfully clicked element button"
+          },
+          {
+            "step_number": 3,
+            "action": "assert_text",
+            "value": "expected",
+            "selector": "#result",
+            "timestamp": 1791451960.2541597,
+            "status": "PASS",
+            "note": "Text assertion passed for #result"
+          }
+        ],
+        "network_requests": [
+          {
+            "type": "request",
+            "url": "https://play.ezygamers.com/",
+            "method": "GET",
+            "timestamp": 1791451960.3792927
+          },
+          {
+            "type": "response",
+            "url": "https://play.ezygamers.com/",
+            "status": 200,
+            "timestamp": 1791451960.4792926
+          }
+        ],
+        "performance_metrics": {
+          "load_time": 1.2,
+          "dom_content_loaded": 0.8,
+          "first_paint": 0.5,
+          "first_contentful_paint": 0.7
+        }
+      },
+      "repeat_validation": [
+        {
+          "run_number": 1,
+          "status": "PASS",
+          "consistency_score": 0.9,
+          "timestamp": "2026-10-08T15:02:42.096823"
+        },
+        {
+          "run_number": 2,
+          "status": "PASS",
+          "consistency_score": 0.85,
+          "timestamp": "2026-10-08T15:02:42.195112"
+        },
+        {
+          "run_number": 3,
+          "status": "PASS",
+          "consistency_score": 0.8,
+          "timestamp": "2026-10-08T15:02:42.306001"
+        }
+      ],
+      "cross_agent_validation": [
+        {
+          "agent_id": "analyzer_0",
+          "analysis": {
+            "focus": "visual_analysis",
+            "screenshot_present": true,
+            "visual_issues": [
+              "No visual issues detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.85,
+          "timestamp": "2026-10-08T15:02:42.426875"
+        },
+        {
+          "agent_id": "analyzer_1",
+          "analysis": {
+            "focus": "dom_analysis",
+            "dom_present": true,
+            "dom_issues": [
+              "DOM structure appears valid"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.95,
+          "timestamp": "2026-10-08T15:02:42.426875"
+        },
+        {
+          "agent_id": "analyzer_2",
+          "analysis": {
+            "focus": "console_analysis",
+            "console_present": true,
+            "console_issues": [
+              "No console errors detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 1.0,
+          "timestamp": "2026-10-08T15:02:42.426875"
+        }
+      ],
+      "validation_score": 0.8833333333333333,
+      "verdict": "LIKELY_PASS",
+      "reproducibility_stats": {
+        "average_consistency": 0.85,
+        "min_consistency": 0.8,
+        "max_consistency": 0.9,
+        "variance": 0.001666666666666666,
+        "reproducibility_rating": "MEDIUM"
+      },
+      "triage_notes": "Test likely passed but with some inconsistencies. Monitor for future runs.",
+      "timestamp": "2026-10-08T15:02:42.426875"
+    },
+    {
+      "test_id": "tc-005",
+      "original_result": {
+        "test_id": "tc-005",
+        "agent_id": "executor_1",
+        "status": "PASS",
+        "artifacts": {
+          "screenshot": "runs/d6278021\\tc-005\\screenshot.png",
+          "dom": "runs/d6278021\\tc-005\\dom.html",
+          "console": "runs/d6278021\\tc-005\\console.log",
+          "network": "runs/d6278021\\tc-005\\network.json",
+          "page_title": "Multi-Agent Game Tester - Simulated",
+          "page_url": "https://play.ezygamers.com/"
+        },
+        "execution_time": 0.8526771068572998,
+        "steps_executed": [
+          {
+            "step_number": 1,
+            "action": "goto",
+            "value": "https://play.ezygamers.com/",
+            "selector": null,
+            "timestamp": 1791451960.0266402,
+            "status": "PASS",
+            "note": "Successfully navigated to https://play.ezygamers.com/"
+          },
+          {
+            "step_number": 2,
+            "action": "click",
+            "value": null,
+            "selector": "button",
+            "timestamp": 1791451960.1424112,
+            "status": "PASS",
+            "note": "Successfully clicked element button"
+          },
+          {
+            "step_number": 3,
+            "action": "assert_text",
+            "value": "expected",
+            "selector": "#result",
+            "timestamp": 1791451960.2541597,
+            "status": "PASS",
+            "note": "Text assertion passed for #result"
+          }
+        ],
+        "network_requests": [
+          {
+            "type": "request",
+            "url": "https://play.ezygamers.com/",
+            "method": "GET",
+            "timestamp": 1791451960.370485
+          },
+          {
+            "type": "response",
+            "url": "https://play.ezygamers.com/",
+            "status": 200,
+            "timestamp": 1791451960.470485
+          }
+        ],
+        "performance_metrics": {
+          "load_time": 1.2,
+          "dom_content_loaded": 0.8,
+          "first_paint": 0.5,
+          "first_contentful_paint": 0.7
+        }
+      },
+      "repeat_validation": [
+        {
+          "run_number": 1,
+          "status": "PASS",
+          "consistency_score": 0.9,
+          "timestamp": "2026-10-08T15:02:42.097828"
+        },
+        {
+          "run_number": 2,
+          "status": "PASS",
+          "consistency_score": 0.85,
+          "timestamp": "2026-10-08T15:02:42.195112"
+        },
+        {
+          "run_number": 3,
+          "status": "PASS",
+          "consistency_score": 0.8,
+          "timestamp": "2026-10-08T15:02:42.306001"
+        }
+      ],
+      "cross_agent_validation": [
+        {
+          "agent_id": "analyzer_0",
+          "analysis": {
+            "focus": "visual_analysis",
+            "screenshot_present": true,
+            "visual_issues": [
+              "No visual issues detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.85,
+          "timestamp": "2026-10-08T15:02:42.433457"
+        },
+        {
+          "agent_id": "analyzer_1",
+          "analysis": {
+            "focus": "dom_analysis",
+            "dom_present": true,
+            "dom_issues": [
+              "DOM structure appears valid"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.95,
+          "timestamp": "2026-10-08T15:02:42.433457"
+        },
+        {
+          "agent_id": "analyzer_2",
+          "analysis": {
+            "focus": "console_analysis",
+            "console_present": true,
+            "console_issues": [
+              "No console errors detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 1.0,
+          "timestamp": "2026-10-08T15:02:42.433457"
+        }
+      ],
+      "validation_score": 0.8833333333333333,
+      "verdict": "LIKELY_PASS",
+      "reproducibility_stats": {
+        "average_consistency": 0.85,
+        "min_consistency": 0.8,
+        "max_consistency": 0.9,
+        "variance": 0.001666666666666666,
+        "reproducibility_rating": "MEDIUM"
+      },
+      "triage_notes": "Test likely passed but with some inconsistencies. Monitor for future runs.",
+      "timestamp": "2026-10-08T15:02:42.434670"
+    },
+    {
+      "test_id": "tc-015",
+      "original_result": {
+        "test_id": "tc-015",
+        "agent_id": "executor_2",
+        "status": "PASS",
+        "artifacts": {
+          "screenshot": "runs/d6278021\\tc-015\\screenshot.png",
+          "dom": "runs/d6278021\\tc-015\\dom.html",
+          "console": "runs/d6278021\\tc-015\\console.log",
+          "network": "runs/d6278021\\tc-015\\network.json",
+          "page_title": "Multi-Agent Game Tester - Simulated",
+          "page_url": "https://play.ezygamers.com/"
+        },
+        "execution_time": 0.8685605525970459,
+        "steps_executed": [
+          {
+            "step_number": 1,
+            "action": "goto",
+            "value": "https://play.ezygamers.com/",
+            "selector": null,
+            "timestamp": 1791451960.0266402,
+            "status": "PASS",
+            "note": "Successfully navigated to https://play.ezygamers.com/"
+          },
+          {
+            "step_number": 2,
+            "action": "click",
+            "value": null,
+            "selector": "button",
+            "timestamp": 1791451960.1424112,
+            "status": "PASS",
+            "note": "Successfully clicked element button"
+          },
+          {
+            "step_number": 3,
+            "action": "assert_text",
+            "value": "expected",
+            "selector": "#result",
+            "timestamp": 1791451960.2541597,
+            "status": "PASS",
+            "note": "Text assertion passed for #result"
+          }
+        ],
+        "network_requests": [
+          {
+            "type": "request",
+            "url": "https://play.ezygamers.com/",
+            "method": "GET",
+            "timestamp": 1791451960.3878787
+          },
+          {
+            "type": "response",
+            "url": "https://play.ezygamers.com/",
+            "status": 200,
+            "timestamp": 1791451960.4878786
+          }
+        ],
+        "performance_metrics": {
+          "load_time": 1.2,
+          "dom_content_loaded": 0.8,
+          "first_paint": 0.5,
+          "first_contentful_paint": 0.7
+        }
+      },
+      "repeat_validation": [
+        {
+          "run_number": 1,
+          "status": "PASS",
+          "consistency_score": 0.9,
+          "timestamp": "2026-10-08T15:02:42.099332"
+        },
+        {
+          "run_number": 2,
+          "status": "PASS",
+          "consistency_score": 0.85,
+          "timestamp": "2026-10-08T15:02:42.195112"
+        },
+        {
+          "run_number": 3,
+          "status": "PASS",
+          "consistency_score": 0.8,
+          "timestamp": "2026-10-08T15:02:42.306001"
+        }
+      ],
+      "cross_agent_validation": [
+        {
+          "agent_id": "analyzer_0",
+          "analysis": {
+            "focus": "visual_analysis",
+            "screenshot_present": true,
+            "visual_issues": [
+              "No visual issues detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.85,
+          "timestamp": "2026-10-08T15:02:42.417589"
+        },
+        {
+          "agent_id": "analyzer_1",
+          "analysis": {
+            "focus": "dom_analysis",
+            "dom_present": true,
+            "dom_issues": [
+              "DOM structure appears valid"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.95,
+          "timestamp": "2026-10-08T15:02:42.417589"
+        },
+        {
+          "agent_id": "analyzer_2",
+          "analysis": {
+            "focus": "console_analysis",
+            "console_present": true,
+            "console_issues": [
+              "No console errors detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 1.0,
+          "timestamp": "2026-10-08T15:02:42.417589"
+        }
+      ],
+      "validation_score": 0.8833333333333333,
+      "verdict": "LIKELY_PASS",
+      "reproducibility_stats": {
+        "average_consistency": 0.85,
+        "min_consistency": 0.8,
+        "max_consistency": 0.9,
+        "variance": 0.001666666666666666,
+        "reproducibility_rating": "MEDIUM"
+      },
+      "triage_notes": "Test likely passed but with some inconsistencies. Monitor for future runs.",
+      "timestamp": "2026-10-08T15:02:42.417589"
+    },
+    {
+      "test_id": "tc-013",
+      "original_result": {
+        "test_id": "tc-013",
+        "agent_id": "executor_0",
+        "status": "PASS",
+        "artifacts": {
+          "screenshot": "runs/d6278021\\tc-013\\screenshot.png",
+          "dom": "runs/d6278021\\tc-013\\dom.html",
+          "console": "runs/d6278021\\tc-013\\console.log",
+          "network": "runs/d6278021\\tc-013\\network.json",
+          "page_title": "Multi-Agent Game Tester - Simulated",
+          "page_url": "https://play.ezygamers.com/"
+        },
+        "execution_time": 0.8605117797851562,
+        "steps_executed": [
+          {
+            "step_number": 1,
+            "action": "goto",
+            "value": "https://play.ezygamers.com/",
+            "selector": null,
+            "timestamp": 1791451960.9030595,
+            "status": "PASS",
+            "note": "Successfully navigated to https://play.ezygamers.com/"
+          },
+          {
+            "step_number": 2,
+            "action": "click",
+            "value": null,
+            "selector": "button",
+            "timestamp": 1791451961.0119503,
+            "status": "PASS",
+            "note": "Successfully clicked element button"
+          },
+          {
+            "step_number": 3,
+            "action": "assert_text",
+            "value": "expected",
+            "selector": "#result",
+            "timestamp": 1791451961.1204767,
+            "status": "PASS",
+            "note": "Text assertion passed for #result"
+          }
+        ],
+        "network_requests": [
+          {
+            "type": "request",
+            "url": "https://play.ezygamers.com/",
+            "method": "GET",
+            "timestamp": 1791451961.2504616
+          },
+          {
+            "type": "response",
+            "url": "https://play.ezygamers.com/",
+            "status": 200,
+            "timestamp": 1791451961.3504615
+          }
+        ],
+        "performance_metrics": {
+          "load_time": 1.2,
+          "dom_content_loaded": 0.8,
+          "first_paint": 0.5,
+          "first_contentful_paint": 0.7
+        }
+      },
+      "repeat_validation": [
+        {
+          "run_number": 1,
+          "status": "PASS",
+          "consistency_score": 0.9,
+          "timestamp": "2026-10-08T15:02:42.100343"
+        },
+        {
+          "run_number": 2,
+          "status": "PASS",
+          "consistency_score": 0.85,
+          "timestamp": "2026-10-08T15:02:42.195112"
+        },
+        {
+          "run_number": 3,
+          "status": "PASS",
+          "consistency_score": 0.8,
+          "timestamp": "2026-10-08T15:02:42.306001"
+        }
+      ],
+      "cross_agent_validation": [
+        {
+          "agent_id": "analyzer_0",
+          "analysis": {
+            "focus": "visual_analysis",
+            "screenshot_present": true,
+            "visual_issues": [
+              "No visual issues detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.85,
+          "timestamp": "2026-10-08T15:02:42.424874"
+        },
+        {
+          "agent_id": "analyzer_1",
+          "analysis": {
+            "focus": "dom_analysis",
+            "dom_present": true,
+            "dom_issues": [
+              "DOM structure appears valid"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.95,
+          "timestamp": "2026-10-08T15:02:42.424874"
+        },
+        {
+          "agent_id": "analyzer_2",
+          "analysis": {
+            "focus": "console_analysis",
+            "console_present": true,
+            "console_issues": [
+              "No console errors detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 1.0,
+          "timestamp": "2026-10-08T15:02:42.424874"
+        }
+      ],
+      "validation_score": 0.8833333333333333,
+      "verdict": "LIKELY_PASS",
+      "reproducibility_stats": {
+        "average_consistency": 0.85,
+        "min_consistency": 0.8,
+        "max_consistency": 0.9,
+        "variance": 0.001666666666666666,
+        "reproducibility_rating": "MEDIUM"
+      },
+      "triage_notes": "Test likely passed but with some inconsistencies. Monitor for future runs.",
+      "timestamp": "2026-10-08T15:02:42.424874"
+    },
+    {
+      "test_id": "tc-001",
+      "original_result": {
+        "test_id": "tc-001",
+        "agent_id": "executor_1",
+        "status": "PASS",
+        "artifacts": {
+          "screenshot": "runs/d6278021\\tc-001\\screenshot.png",
+          "dom": "runs/d6278021\\tc-001\\dom.html",
+          "console": "runs/d6278021\\tc-001\\console.log",
+          "network": "runs/d6278021\\tc-001\\network.json",
+          "page_title": "Multi-Agent Game Tester - Simulated",
+          "page_url": "https://play.ezygamers.com/"
+        },
+        "execution_time": 0.8442704677581787,
+        "steps_executed": [
+          {
+            "step_number": 1,
+            "action": "goto",
+            "value": "https://play.ezygamers.com/",
+            "selector": null,
+            "timestamp": 1791451960.9030595,
+            "status": "PASS",
+            "note": "Successfully navigated to https://play.ezygamers.com/"
+          },
+          {
+            "step_number": 2,
+            "action": "click",
+            "value": null,
+            "selector": "button",
+            "timestamp": 1791451961.0119503,
+            "status": "PASS",
+            "note": "Successfully clicked element button"
+          },
+          {
+            "step_number": 3,
+            "action": "assert_text",
+            "value": "expected",
+            "selector": "#result",
+            "timestamp": 1791451961.1204767,
+            "status": "PASS",
+            "note": "Text assertion passed for #result"
+          }
+        ],
+        "network_requests": [
+          {
+            "type": "request",
+            "url": "https://play.ezygamers.com/",
+            "method": "GET",
+            "timestamp": 1791451961.236442
+          },
+          {
+            "type": "response",
+            "url": "https://play.ezygamers.com/",
+            "status": 200,
+            "timestamp": 1791451961.336442
+          }
+        ],
+        "performance_metrics": {
+          "load_time": 1.2,
+          "dom_content_loaded": 0.8,
+          "first_paint": 0.5,
+          "first_contentful_paint": 0.7
+        }
+      },
+      "repeat_validation": [
+        {
+          "run_number": 1,
+          "status": "PASS",
+          "consistency_score": 0.9,
+          "timestamp": "2026-10-08T15:02:42.101346"
+        },
+        {
+          "run_number": 2,
+          "status": "PASS",
+          "consistency_score": 0.85,
+          "timestamp": "2026-10-08T15:02:42.195112"
+        },
+        {
+          "run_number": 3,
+          "status": "PASS",
+          "consistency_score": 0.8,
+          "timestamp": "2026-10-08T15:02:42.306001"
+        }
+      ],
+      "cross_agent_validation": [
+        {
+          "agent_id": "analyzer_0",
+          "analysis": {
+            "focus": "visual_analysis",
+            "screenshot_present": true,
+            "visual_issues": [
+              "No visual issues detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.85,
+          "timestamp": "2026-10-08T15:02:42.432277"
+        },
+        {
+          "agent_id": "analyzer_1",
+          "analysis": {
+            "focus": "dom_analysis",
+            "dom_present": true,
+            "dom_issues": [
+              "DOM structure appears valid"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.95,
+          "timestamp": "2026-10-08T15:02:42.432277"
+        },
+        {
+          "agent_id": "analyzer_2",
+          "analysis": {
+            "focus": "console_analysis",
+            "console_present": true,
+            "console_issues": [
+              "No console errors detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 1.0,
+          "timestamp": "2026-10-08T15:02:42.432277"
+        }
+      ],
+      "validation_score": 0.8833333333333333,
+      "verdict": "LIKELY_PASS",
+      "reproducibility_stats": {
+        "average_consistency": 0.85,
+        "min_consistency": 0.8,
+        "max_consistency": 0.9,
+        "variance": 0.001666666666666666,
+        "reproducibility_rating": "MEDIUM"
+      },
+      "triage_notes": "Test likely passed but with some inconsistencies. Monitor for future runs.",
+      "timestamp": "2026-10-08T15:02:42.432277"
+    },
+    {
+      "test_id": "tc-016",
+      "original_result": {
+        "test_id": "tc-016",
+        "agent_id": "executor_2",
+        "status": "PASS",
+        "artifacts": {
+          "screenshot": "runs/d6278021\\tc-016\\screenshot.png",
+          "dom": "runs/d6278021\\tc-016\\dom.html",
+          "console": "runs/d6278021\\tc-016\\console.log",
+          "network": "runs/d6278021\\tc-016\\network.json",
+          "page_title": "Multi-Agent Game Tester - Simulated",
+          "page_url": "https://play.ezygamers.com/"
+        },
+        "execution_time": 0.8494563102722168,
+        "steps_executed": [
+          {
+            "step_number": 1,
+            "action": "goto",
+            "value": "https://play.ezygamers.com/",
+            "selector": null,
+            "timestamp": 1791451960.9030595,
+            "status": "PASS",
+            "note": "Successfully navigated to https://play.ezygamers.com/"
+          },
+          {
+            "step_number": 2,
+            "action": "click",
+            "value": null,
+            "selector": "button",
+            "timestamp": 1791451961.0119503,
+            "status": "PASS",
+            "note": "Successfully clicked element button"
+          },
+          {
+            "step_number": 3,
+            "action": "assert_text",
+            "value": "expected",
+            "selector": "#result",
+            "timestamp": 1791451961.1204767,
+            "status": "PASS",
+            "note": "Text assertion passed for #result"
+          }
+        ],
+        "network_requests": [
+          {
+            "type": "request",
+            "url": "https://play.ezygamers.com/",
+            "method": "GET",
+            "timestamp": 1791451961.2432828
+          },
+          {
+            "type": "response",
+            "url": "https://play.ezygamers.com/",
+            "status": 200,
+            "timestamp": 1791451961.3432827
+          }
+        ],
+        "performance_metrics": {
+          "load_time": 1.2,
+          "dom_content_loaded": 0.8,
+          "first_paint": 0.5,
+          "first_contentful_paint": 0.7
+        }
+      },
+      "repeat_validation": [
+        {
+          "run_number": 1,
+          "status": "PASS",
+          "consistency_score": 0.9,
+          "timestamp": "2026-10-08T15:02:42.102829"
+        },
+        {
+          "run_number": 2,
+          "status": "PASS",
+          "consistency_score": 0.85,
+          "timestamp": "2026-10-08T15:02:42.225814"
+        },
+        {
+          "run_number": 3,
+          "status": "PASS",
+          "consistency_score": 0.8,
+          "timestamp": "2026-10-08T15:02:42.306001"
+        }
+      ],
+      "cross_agent_validation": [
+        {
+          "agent_id": "analyzer_0",
+          "analysis": {
+            "focus": "visual_analysis",
+            "screenshot_present": true,
+            "visual_issues": [
+              "No visual issues detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.85,
+          "timestamp": "2026-10-08T15:02:42.421744"
+        },
+        {
+          "agent_id": "analyzer_1",
+          "analysis": {
+            "focus": "dom_analysis",
+            "dom_present": true,
+            "dom_issues": [
+              "DOM structure appears valid"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.95,
+          "timestamp": "2026-10-08T15:02:42.421744"
+        },
+        {
+          "agent_id": "analyzer_2",
+          "analysis": {
+            "focus": "console_analysis",
+            "console_present": true,
+            "console_issues": [
+              "No console errors detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 1.0,
+          "timestamp": "2026-10-08T15:02:42.421744"
+        }
+      ],
+      "validation_score": 0.8833333333333333,
+      "verdict": "LIKELY_PASS",
+      "reproducibility_stats": {
+        "average_consistency": 0.85,
+        "min_consistency": 0.8,
+        "max_consistency": 0.9,
+        "variance": 0.001666666666666666,
+        "reproducibility_rating": "MEDIUM"
+      },
+      "triage_notes": "Test likely passed but with some inconsistencies. Monitor for future runs.",
+      "timestamp": "2026-10-08T15:02:42.421744"
+    },
+    {
+      "test_id": "tc-020",
+      "original_result": {
+        "test_id": "tc-020",
+        "agent_id": "executor_0",
+        "status": "PASS",
+        "artifacts": {
+          "screenshot": "runs/d6278021\\tc-020\\screenshot.png",
+          "dom": "runs/d6278021\\tc-020\\dom.html",
+          "console": "runs/d6278021\\tc-020\\console.log",
+          "network": "runs/d6278021\\tc-020\\network.json",
+          "page_title": "Multi-Agent Game Tester - Simulated",
+          "page_url": "https://play.ezygamers.com/"
+        },
+        "execution_time": 0.839346170425415,
+        "steps_executed": [
+          {
+            "step_number": 1,
+            "action": "goto",
+            "value": "https://play.ezygamers.com/",
+            "selector": null,
+            "timestamp": 1791451961.7543561,
+            "status": "PASS",
+            "note": "Successfully navigated to https://play.ezygamers.com/"
+          },
+          {
+            "step_number": 2,
+            "action": "click",
+            "value": null,
+            "selector": "button",
+            "timestamp": 1791451961.865073,
+            "status": "PASS",
+            "note": "Successfully clicked element button"
+          },
+          {
+            "step_number": 3,
+            "action": "assert_text",
+            "value": "expected",
+            "selector": "#result",
+            "timestamp": 1791451961.9745805,
+            "status": "PASS",
+            "note": "Text assertion passed for #result"
+          }
+        ],
+        "network_requests": [
+          {
+            "type": "request",
+            "url": "https://play.ezygamers.com/",
+            "method": "GET",
+            "timestamp": 1791451962.090809
+          },
+          {
+            "type": "response",
+            "url": "https://play.ezygamers.com/",
+            "status": 200,
+            "timestamp": 1791451962.190809
+          }
+        ],
+        "performance_metrics": {
+          "load_time": 1.2,
+          "dom_content_loaded": 0.8,
+          "first_paint": 0.5,
+          "first_contentful_paint": 0.7
+        }
+      },
+      "repeat_validation": [
+        {
+          "run_number": 1,
+          "status": "PASS",
+          "consistency_score": 0.9,
+          "timestamp": "2026-10-08T15:02:42.104098"
+        },
+        {
+          "run_number": 2,
+          "status": "PASS",
+          "consistency_score": 0.85,
+          "timestamp": "2026-10-08T15:02:42.225814"
+        },
+        {
+          "run_number": 3,
+          "status": "PASS",
+          "consistency_score": 0.8,
+          "timestamp": "2026-10-08T15:02:42.306001"
+        }
+      ],
+      "cross_agent_validation": [
+        {
+          "agent_id": "analyzer_0",
+          "analysis": {
+            "focus": "visual_analysis",
+            "screenshot_present": true,
+            "visual_issues": [
+              "No visual issues detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.85,
+          "timestamp": "2026-10-08T15:02:42.418592"
+        },
+        {
+          "agent_id": "analyzer_1",
+          "analysis": {
+            "focus": "dom_analysis",
+            "dom_present": true,
+            "dom_issues": [
+              "DOM structure appears valid"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 0.95,
+          "timestamp": "2026-10-08T15:02:42.418592"
+        },
+        {
+          "agent_id": "analyzer_2",
+          "analysis": {
+            "focus": "console_analysis",
+            "console_present": true,
+            "console_issues": [
+              "No console errors detected"
+            ],
+            "recommendation": "PASS"
+          },
+          "confidence": 1.0,
+          "timestamp": "2026-10-08T15:02:42.418592"
+        }
+      ],
+      "validation_score": 0.8833333333333333,
+      "verdict": "LIKELY_PASS",
+      "reproducibility_stats": {
+        "average_consistency": 0.85,
+        "min_consistency": 0.8,
+        "max_consistency": 0.9,
+        "variance": 0.001666666666666666,
+        "reproducibility_rating": "MEDIUM"
+      },
+      "triage_notes": "Test likely passed but with some inconsistencies. Monitor for future runs.",
+      "timestamp": "2026-10-08T15:02:42.419729"
+    }
+  ],
+  "artifacts_location": "runs/d6278021",
+  "recommendations": [
+    "All tests passed successfully with high confidence"
+  ]
+}

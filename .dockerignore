@@ -1,0 +1,10 @@
+.git
+__pycache__
+*.pyc
+runs/
+*.mp4
+*.png
+README.md
+Dockerfile
+.dockerignore
+Jenkinsfile
