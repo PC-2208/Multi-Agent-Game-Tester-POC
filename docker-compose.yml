@@ -1,0 +1,15 @@
+name: game-tester
+
+services:
+  game-tester:
+    image: game-tester:latest
+    container_name: game-tester
+    restart: unless-stopped
+    ports:
+      - "8001:8000"
+    volumes:
+      - game_tester_runs:/app/runs
+
+volumes:
+  game_tester_runs:
+    name: game_tester_runs
